@@ -1,0 +1,10 @@
+
+
+@GDEF_Simple = [\A \B \C \D \E \F \G \H \I \J \K \L \M \N \O \P \Q \R \S \T \U \V \W \X \Y \Z \j \k \l \e 
+	\w \m \n \space \hyphen \semicolon \u \d \o \a ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, , , ;
+
+} GDEF;
+
